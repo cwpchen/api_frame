@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testelement>
+    <search_element name="search">
+        <explorer>explorer="Firefox"</explorer>
+        <url>https://www.baidu.com</url>
+        <key>Selenium</key>
+    </search_element>
+
+    <sendmail_element name="sendmail">
+        <smtpserver>smtp.163.com</smtpserver>
+        <username>*****@163.com</username>
+        <password>*****</password>
+        <sender>****@163.com</sender>
+        <receive>*****@163.com,*****@163.com</receive>
+        <port>465</port>
+        <subject>web selenium 测试报告</subject>
+        <content><html><h1 style="color:read">selenium 邮件发送测试 from cwp</h1></html></content>
+    </sendmail_element>
+</testelement>
